@@ -6,8 +6,9 @@ body{
     width: 100%;
 }
 #center{
-  margin-top: 80px;
+  padding-top: 100px;
   width: 80% !important;
+  margin: auto
 
 }
 #form_wrapper {
