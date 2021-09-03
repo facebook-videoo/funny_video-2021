@@ -7,7 +7,7 @@ body{
 }
 #center{
   margin-top: 80px;
-  width: 80%;
+  width: 80% !important;
 
 }
 #form_wrapper {
