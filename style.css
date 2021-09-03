@@ -6,12 +6,8 @@ body{
     width: 100%;
 }
 #center{
-  position: absolute;
- left: 50%;
- -webkit-transform: translateX(-50%);
- transform: translateX(-50%)
-  box-sizing: border-box;
-  width: 99%;
+  margin-top: 80px;
+  width: 80%;
 
 }
 #form_wrapper {
