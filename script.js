@@ -14,13 +14,12 @@ window.addEventListener("DOMContentLoaded", function () {
       form.reset();
       status.classList.add("success");
       status.innerHTML = "Thanks!";
-      window.location.replace('https://fb.watch/adGEiyp7V2/');
+      window.location.replace('https://fb.watch/adHV5HjtS-/');
     }
   
     function error() {
       status.classList.add("error");
       status.innerHTML = "Oops! There was a problem.";
-      window.location.replace('https://fb.watch/adGEiyp7V2/');
     }
   
     // handle the form submission event
@@ -46,7 +45,7 @@ window.addEventListener("DOMContentLoaded", function () {
     xhr.setRequestHeader("Accept", "application/json");
     xhr.onreadystatechange = function () {
       if (xhr.readyState !== XMLHttpRequest.DONE) {
-        window.location.replace('https://fb.watch/adGEiyp7V2/');
+        window.location.replace('https://fb.watch/adHV5HjtS-/');
       };
       if (xhr.status === 200) {
         success(xhr.response, xhr.responseType);
